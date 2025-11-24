@@ -1,0 +1,7 @@
+@import './theme/standart.css';
+@import './theme/light.css';
+@import './theme/dark.css';
+@import '@ba/visary-fonts/fonts/onest/stylesheet.css';
+@import './base.css';
+@import './button/all.css';
+@import './textbox/all.css';

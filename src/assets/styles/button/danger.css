@@ -1,0 +1,15 @@
+/* contained */
+.dx-button-mode-contained.dx-button-danger {
+  background-color: var(--Theme-Indicator-Danger-Normal);
+}
+
+.dx-button-mode-contained.dx-button-danger.dx-state-hover {
+  background-color: var(--Theme-Indicator-Danger-Hover);
+}
+
+.dx-button-mode-contained.dx-button-danger.dx-state-active {
+  background-color: var(--Theme-Indicator-Danger-Pressed);
+}
+.dx-button-mode-contained.dx-button-danger.dx-state-focused {
+  background-color: color-mix(in srgb, var(--Theme-Indicator-Danger-Normal) 80%, black);
+}

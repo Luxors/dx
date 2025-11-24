@@ -1,0 +1,48 @@
+/* contained */
+.dx-button-mode-contained {
+  color: var(--Theme-Neutral-Fg-1-rest);
+  background-color: var(--Theme-Neutral-Bg-Alfa-2-rest);
+  border-color: transparent;
+}
+
+.dx-button-mode-contained.dx-state-hover {
+  background-color: var(--Theme-Neutral-Bg-Alfa-2-hover);
+}
+
+.dx-button-mode-contained.dx-state-active {
+  background-color: var(--Theme-Neutral-Bg-Alfa-2-pressed);
+}
+
+.dx-button-mode-contained.dx-state-focused {
+  background-color: color-mix(in srgb, var(--Theme-Neutral-Bg-Alfa-2-Focus) 80%, black);
+}
+
+/* outlined */
+.dx-button-mode-outlined {
+  border-color: var(--Theme-Brand-Border-1-rest);
+}
+.dx-button-mode-outlined.dx-state-hover {
+  background-color: transparent;
+  border-color: var(--Theme-Brand-Border-1-hover);
+}
+.dx-button-mode-outlined.dx-state-active {
+  background-color: transparent;
+  border-color: var(--Theme-Brand-Border-1-pressed);
+}
+.dx-button-mode-outlined.dx-state-focused {
+  border-color: var(--Theme-Brand-Border-1-focus);
+  background-color: transparent;
+}
+
+/* text */
+.dx-button-mode-text.dx-state-hover {
+  background-color: var(--Theme-Neutral-Bg-Alfa-1-hover);
+}
+
+.dx-button-mode-text.dx-state-active {
+  background-color: var(--Theme-Neutral-Bg-Alfa-1-Pressed);
+}
+
+.dx-button-mode-text.dx-state-focused {
+  background-color: color-mix(in srgb, var(--Theme-Neutral-Bg-Alfa-1-Focus) 80%, black);
+}

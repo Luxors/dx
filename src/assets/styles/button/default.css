@@ -1,0 +1,16 @@
+/* contained */
+.dx-button-mode-contained.dx-button-default {
+  background-color: var(--Theme-Brand-Bg-1-rest);
+}
+
+.dx-button-mode-contained.dx-button-default.dx-state-hover {
+  background-color: var(--Theme-Brand-Bg-1-hover);
+}
+
+.dx-button-mode-contained.dx-button-default.dx-state-active {
+  background-color: var(--Theme-Brand-Bg-1-pressed);
+}
+
+.dx-button-mode-contained.dx-button-default.dx-state-focused {
+  background-color: color-mix(in srgb, var(--Theme-Brand-Bg-1-focus) 80%, black);
+}

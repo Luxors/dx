@@ -1,0 +1,27 @@
+.dx-button-text {
+  line-height: 14px;
+}
+
+.dx-button-has-text .dx-button-content,
+.dx-button-has-icon .dx-button-content {
+  padding-block: 5px;
+  padding-inline-start: 5px;
+  padding-inline-end: 5px;
+}
+
+.dx-button-has-icon .dx-icon {
+  width: 14px;
+  height: 14px;
+  font-size: 14px;
+}
+
+.dx-button-mode-outlined,
+.dx-button-mode-text,
+.dx-button-mode-contained.dx-state-active,
+.dx-button-mode-outlined.dx-state-active,
+.dx-button-mode-text.dx-state-active,
+.dx-button-mode-outlined .dx-icon,
+.dx-button-mode-contained .dx-icon,
+.dx-button-mode-text .dx-icon {
+  color: var(--Theme-Neutral-Fg-1-rest);
+}
