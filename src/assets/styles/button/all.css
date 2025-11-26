@@ -1,5 +1,4 @@
 @import './base';
-@import './normal.css';
-@import './default.css';
-@import './success.css';
-@import './danger.css';
+@import './contained.css';
+@import './outlined.css';
+@import './text.css';

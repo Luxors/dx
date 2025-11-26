@@ -1,0 +1,92 @@
+/* NORMAL */
+.dx-button-mode-contained {
+  background-color: var(--Theme-Neutral-Bg-Alfa-2-rest);
+  border-color: transparent;
+  color: var(--Theme-Neutral-Fg-1-rest);
+}
+
+.dx-button-mode-contained .dx-icon {
+  color: var(--Theme-Neutral-Fg-1-rest);
+}
+
+.dx-button-mode-contained.dx-state-hover {
+  background-color: var(--Theme-Neutral-Bg-Alfa-2-hover);
+}
+
+.dx-button-mode-contained.dx-state-focused {
+  background-color: color-mix(in srgb, var(--Theme-Neutral-Bg-Alfa-2-hover) 95%, black);
+}
+
+.dx-button-mode-contained.dx-state-active {
+  background-color: var(--Theme-Neutral-Bg-Alfa-2-pressed);
+  color: var(--Theme-Neutral-Fg-1-rest);
+}
+
+/* DANGER */
+.dx-button-mode-contained.dx-button-danger {
+  background-color: var(--Theme-Indicator-Danger-Normal);
+  color: var(--Theme-Neutral-Fg-Onbrand-1-rest);
+}
+
+.dx-button-mode-contained.dx-button-danger .dx-icon {
+  color: var(--Theme-Neutral-Fg-Onbrand-1-rest);
+}
+
+.dx-button-mode-contained.dx-button-danger.dx-state-hover {
+  background-color: var(--Theme-Indicator-Danger-Hover);
+}
+
+.dx-button-mode-contained.dx-button-danger.dx-state-focused {
+  background-color: color-mix(in srgb, var(--Theme-Indicator-Danger-Hover) 95%, black);
+}
+
+.dx-button-mode-contained.dx-button-danger.dx-state-active {
+  background-color: var(--Theme-Indicator-Danger-Pressed);
+  color: var(--Theme-Neutral-Fg-Onbrand-1-rest);
+}
+
+/* SUCCESS */
+.dx-button-mode-contained.dx-button-success {
+  background-color: var(--Theme-Indicator-Success-Normal);
+  color: var(--Theme-Neutral-Fg-Onbrand-1-rest);
+}
+
+.dx-button-mode-contained.dx-button-success .dx-icon {
+  color: var(--Theme-Neutral-Fg-Onbrand-1-rest);
+}
+
+.dx-button-mode-contained.dx-button-success.dx-state-hover {
+  background-color: var(--Theme-Indicator-Success-Hover);
+}
+
+.dx-button-mode-contained.dx-button-success.dx-state-focused {
+  background-color: color-mix(in srgb, var(--Theme-Indicator-Success-Hover) 95%, black);
+}
+
+.dx-button-mode-contained.dx-button-success.dx-state-active {
+  background-color: var(--Theme-Indicator-Success-Pressed);
+  color: var(--Theme-Neutral-Fg-Onbrand-1-rest);
+}
+
+/* DEFAULT */
+.dx-button-mode-contained.dx-button-default {
+  background-color: var(--Theme-Brand-Bg-1-rest);
+  color: var(--Theme-Brand-Fg-1-rest);
+}
+
+.dx-button-mode-contained.dx-button-default .dx-icon {
+  color: var(--Theme-Brand-Fg-1-rest);
+}
+
+.dx-button-mode-contained.dx-button-default.dx-state-hover {
+  background-color: var(--Theme-Brand-Bg-1-hover);
+}
+
+.dx-button-mode-contained.dx-button-default.dx-state-focused {
+  background-color: color-mix(in srgb, var(--Theme-Brand-Bg-1-hover) 95%, black);
+}
+
+.dx-button-mode-contained.dx-button-default.dx-state-active {
+  background-color: var(--Theme-Brand-Bg-1-pressed);
+  color: var(--Theme-Brand-Fg-1-rest);
+}

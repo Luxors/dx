@@ -10,6 +10,25 @@ import DxButtonGroup from 'devextreme-vue/button-group'
 const iconWeather = weather
 const iconLogo = logo
 
+const colors = ref([
+  {
+    type: 'b',
+    color: '#2A68DF',
+  },
+  {
+    type: 'h',
+    color: '#3978F2',
+  },
+  {
+    type: 'f',
+    color: '#285fca',
+  },
+  {
+    type: 'a',
+    color: '#1E5BD2',
+  },
+])
+
 const buttonGroupItems = ref([
   {
     icon: 'alignleft',
@@ -79,8 +98,18 @@ const buttonGroupItems = ref([
     <div>
       <div class="column-header">Default</div>
       <div class="row">
+        <div
+          v-for="(item, i) in colors"
+          :key="i"
+          style="width: 40px; height: 40px; color: azure"
+          :style="{ backgroundColor: item.color }"
+        >
+          {{ item.type }}
+        </div>
+      </div>
+      <div class="row">
         <DxButton text="Contained" type="default" styling-mode="contained" />
-        <DxButton text="Contained" type="default" styling-mode="contained" icon="check" />
+        <DxButton text="Containged" type="default" styling-mode="contained" icon="check" />
         <DxButton type="default" styling-mode="contained" icon="check" />
       </div>
       <div class="row">

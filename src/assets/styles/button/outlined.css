@@ -1,0 +1,25 @@
+/* NORMAL */
+.dx-button-mode-outlined {
+  border-color: var(--Theme-Brand-Border-1-rest);
+  color: var(--Theme-Neutral-Fg-1-rest);
+}
+
+.dx-button-mode-outlined .dx-icon {
+  color: var(--Theme-Neutral-Fg-1-rest);
+}
+
+.dx-button-mode-outlined.dx-state-hover {
+  background-color: transparent;
+  border-color: var(--Theme-Brand-Border-1-hover); /* unsafe  */
+}
+
+.dx-button-mode-outlined.dx-state-focused {
+  background-color: transparent;
+  border-color: var(--Theme-Brand-Border-1-focus); /* unsafe  */
+}
+
+.dx-button-mode-outlined.dx-state-active {
+  background-color: transparent;
+  color: var(--Theme-Neutral-Fg-1-rest);
+  border-color: var(--Theme-Brand-Border-1-pressed); /* unsafe  */
+}

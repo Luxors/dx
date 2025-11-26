@@ -1,0 +1,21 @@
+/* NORMAL */
+.dx-button-mode-text {
+  color: var(--Theme-Neutral-Fg-1-rest);
+}
+
+.dx-button-mode-text .dx-icon {
+  color: var(--Theme-Neutral-Fg-1-rest);
+}
+
+.dx-button-mode-text.dx-state-hover {
+  background-color: var(--Theme-Neutral-Bg-Alfa-1-hover);
+}
+
+.dx-button-mode-text.dx-state-focused {
+  background-color: color-mix(in srgb, var(--Theme-Neutral-Bg-Alfa-1-hover) 95%, black);
+}
+
+.dx-button-mode-text.dx-state-active {
+  background-color: var(--Theme-Neutral-Bg-Alfa-1-pressed);
+  color: var(--Theme-Neutral-Fg-1-rest);
+}
